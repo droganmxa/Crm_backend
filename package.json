@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "dev": "npx nodemon",
+    "start": "node dist/index.js",
+    "dist": "npx tsc"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.8.3"
+  }
 }
